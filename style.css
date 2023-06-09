@@ -1,0 +1,51 @@
+body {
+    background-image: url(imágenes/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.CVC {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.expdate{
+    width: 200px;
+}
+button {
+    margin-top: 15px;
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.cardfrente{
+    position: absolute;
+    top: 150px;
+    left:200px;
+}
+.cardback{
+    position: absolute;
+    top:500px;
+    left:300px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {-moz-appearance:textfield;}
